@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+#main{
+    width:100%;
+    height: calc(100vh - 0px); /* subtract the height of the button from the viewport height */
+    display:flex;
+    flex-wrap:wrap;
+    background:#9c88ff;
+    padding-bottom: 100px;
+    overflow: auto;
+}
+#addBtn{
+    position:fixed;
+    right:15px;
+    top:10px;
+    background-color: rgb(10, 10, 10);
+    color:#fff;
+    padding: 8px  10px;
+    border:0;
+    outline:0;
+    border-radius: 5px;
+}
+.note{
+    width:300px;
+    height:310px;
+    background-color:#dcdde1;
+    margin-left:22px;
+    margin-top: 56px;
+}
+.tool{
+    width:100%;
+    height:30px;
+    background-color: rgb(10, 10, 10);
+    color:#fff;
+    display:flex;
+    justify-content:end;
+}
+.tool i{
+    padding:10px;
+}
+.note textarea{
+    border:none;
+    width:100%;
+    height:100%;
+    resize: none;
+    padding:10px;
+    font-size:15px;
+}
+.note textarea:focus{
+    border:0;
+    outline:0;
+}
